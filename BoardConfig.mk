@@ -36,6 +36,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# These two are for MTK Chipsets only
+BOARD_USES_MTK_HARDWARE := true
+BOARD_HAS_MTK_HARDWARE := true
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
