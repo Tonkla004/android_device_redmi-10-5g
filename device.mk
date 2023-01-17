@@ -26,7 +26,9 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz \
     libcutils
-
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/commonsys-intf/display
+    
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
